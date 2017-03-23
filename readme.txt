@@ -1,2 +1,2 @@
-Git is a distributed version control system.
-Git is free.
+1.完成导航栏
+2.完成首页
