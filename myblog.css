@@ -96,18 +96,24 @@ h1{
 .sec2-content .header{
     width:55%;
 	color: white;
+/*	text-align: center;
+	margin-top: 150px;*/
+
 	position: relative;
 	top:150px;
-	left:100px;
+	
 
 
 }
 .sec2 .header .main-header{
 	font-size: 28px;
+    text-align: center;
 
 }
 .sec2 .header .sub-header{
 	font-size: 18px;
+	max-width: 70%;
+	text-align: center;
 }
 
 
