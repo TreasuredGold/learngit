@@ -47,14 +47,14 @@ h1{
 	font-size: 15px;
 	padding:1px 2px;
 }
-.content{
+.sec1{
 
 
 }
 .content .sec1{
 	background:#eee;
 	text-align: center;
-	height: 180px;
+	height: 240px;
 	padding:100px;
 }
 .sec1-header h3,p{
@@ -63,14 +63,54 @@ h1{
 .sec1-header p{
 	padding:50px;
 }
+
 .item{
-	
 	display: inline-block;
-	padding:35px;
-	margin:20px;
+	padding:25px;
+    margin:20px;
 	transform: rotate(45deg);
 	border: 5px solid #000;
 }
+.sec2{
+	background: #082530;
+	font-size: 0px;
+
+
+}
+.sec2-img{
+	width:45%;
+	display: inline-block;
+}	
+.sec2-img img{
+	width:100%;
+}	
+.sec2-content>div{
+	float:left;
+
+}
+.sec2-content:after{
+	content:"";
+	display:block;
+	clear: both;
+}
+.sec2-content .header{
+    width:55%;
+	color: white;
+	position: relative;
+	top:150px;
+	left:100px;
+
+
+}
+.sec2 .header .main-header{
+	font-size: 28px;
+
+}
+.sec2 .header .sub-header{
+	font-size: 18px;
+}
+
+
 
 
 
