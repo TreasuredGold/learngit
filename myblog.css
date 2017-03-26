@@ -72,9 +72,11 @@ h1{
 	border: 5px solid #000;
 }
 .sec2{
-	background: #082530;
+	background: #7bbed2;
 	font-size: 0px;
-
+}
+.sec2-content:nth-child(even){
+	background:rgba(0,0,0,0.05);
 
 }
 .sec2-img{
@@ -86,7 +88,6 @@ h1{
 }	
 .sec2-content>div{
 	float:left;
-
 }
 .sec2-content:after{
 	content:"";
@@ -96,14 +97,8 @@ h1{
 .sec2-content .header{
     width:55%;
 	color: white;
-/*	text-align: center;
-	margin-top: 150px;*/
-
 	position: relative;
 	top:150px;
-	
-
-
 }
 .sec2 .header .main-header{
 	font-size: 28px;
@@ -114,6 +109,70 @@ h1{
 	font-size: 18px;
 	max-width: 70%;
 	text-align: center;
+}
+.sec3{
+	background: #0f2540;
+	color:white;
+	padding:10px 400px 20px;
+}
+.sec3 h3 {
+	margin-top: 0;
+	padding-top: 150px;
+	text-align:center;
+	font-size:40px;
+}
+.sec3-header p{
+	font-size:28px;
+}
+.card-group{
+	overflow: hidden;
+	margin-top: 50px;
+}
+.card-group div{
+	max-width:50%;
+	float:left;
+	min-height:300px;
+	font-size:28px;
+}
+.card{
+	box-sizing: border-box;
+	padding:50px;
+}
+.card:nth-child(1){
+	background: rgba(255,255,255,0.04);
+}
+.card:nth-child(2){
+	background: rgba(255,255,255,0.08);
+}
+.card:nth-child(3){
+	background: rgba(255,255,255,0.12);
+}
+.card:nth-child(4){
+	background: rgba(255,255,255,0.16);
+}
+.card:nth-child(5){
+	background: rgba(255,255,255,0.20);
+}
+.card:nth-child(6){
+	background: rgba(255,255,255,0.24);
+}
+footer{
+	background:#444;
+	min-height: 150px;
+}
+footer ul{
+	margin:0px;
+	text-align:center;
+
+}
+footer ul li{
+	display: inline-block;
+	list-style: none;
+	padding:20px;
+}
+.copy{
+	text-align:center;
+	padding-top: 50px;
 }
 
 
