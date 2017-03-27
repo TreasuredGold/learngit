@@ -1,9 +1,17 @@
+.image-background{
+	background-image:url(33036.jpg);
+	background-position: center;
+	background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
 nav{
-	background: #ccc;
-	height:40px;
+	height:60px;
 	margin: 0;
+	background:rgba(255,255,255,0.5);
 }
 nav ul{
+	padding-top: 10px;
 	margin:0px;
 	list-style:none;
 }
@@ -14,65 +22,64 @@ nav ul li{
 }
 nav ul li a{
 	text-decoration:none;
-
 }
 .logo{
 	float:left;
 	font-weight: bolder;
+	color:#ae7bb4;
 }
 .homepage{
-	background:#0F2540;
-	padding:50px 400px;
-
-	text-align:center;
-	color:white;
-}
-.homepage .subhead p{
-	line-height: 60px;
+    text-align:center;
+	color: black;
+	min-height: 550px;
 }
 h1{
-	margin-top:120px;
+	margin-top:300px;
+	font-size: 60px;
 }
-.homepage .hr{
-	height:2px;
-
-}
-.homepage .subhead{
+.homepage .sub-head{
+	line-height: 50px;
 	margin-top:60px;
+	font-size:30px;
 }
 .more{
-	border：none;
-	margin-top:100px;
+	border:none;
+	margin-top:220px;
 	color:#082530;
-	font-size: 15px;
-	padding:1px 2px;
-}
-.sec1{
-
-
+	font-size: 30px;
+	padding:10px 10px;
+	background: rgba(123,190,210,0.6);
 }
 .content .sec1{
-	background:#eee;
+	background:#e9ebfa;
 	text-align: center;
-	height: 240px;
+	height: 300px;
 	padding:100px;
 }
 .sec1-header h3,p{
 	margin: 0px;
 }
 .sec1-header p{
-	padding:50px;
+	padding:60px;
 }
-
+.item-group span:nth-child(1){
+	background:rgba(15,37,64,0.1);
+}
+.item-group span:nth-child(2){
+	background:rgba(15,37,64,0.2);
+}
+.item-group span:nth-child(3){
+	background:rgba(15,37,64,0.3);
+}
 .item{
 	display: inline-block;
 	padding:25px;
     margin:20px;
 	transform: rotate(45deg);
-	border: 5px solid #000;
+	border: 3px solid #fff;
 }
 .sec2{
-	background: #7bbed2;
+	background:rgba(135,152,208,0.9);
 	font-size: 0px;
 }
 .sec2-content:nth-child(even){
@@ -111,13 +118,13 @@ h1{
 	text-align: center;
 }
 .sec3{
-	background: #0f2540;
+	background: #e3d8e3;
 	color:white;
-	padding:10px 400px 20px;
+	padding:0px 400px 150px;
 }
 .sec3 h3 {
 	margin-top: 0;
-	padding-top: 150px;
+	padding-top: 100px;
 	text-align:center;
 	font-size:40px;
 }
@@ -139,31 +146,54 @@ h1{
 	padding:50px;
 }
 .card:nth-child(1){
-	background: rgba(255,255,255,0.04);
+	background: rgba(0,0,0,0.04);
 }
 .card:nth-child(2){
-	background: rgba(255,255,255,0.08);
+	background: rgba(0,0,0,0.08);
 }
 .card:nth-child(3){
-	background: rgba(255,255,255,0.12);
+	background: rgba(0,0,0,0.12);
 }
 .card:nth-child(4){
-	background: rgba(255,255,255,0.16);
+	background: rgba(0,0,0,0.16);
 }
 .card:nth-child(5){
-	background: rgba(255,255,255,0.20);
+	background: rgba(0,0,0,0.20);
 }
 .card:nth-child(6){
-	background: rgba(255,255,255,0.24);
+	background: rgba(0,0,0,0.24);
 }
 footer{
-	background:#444;
+    background-image:url(background.jpg);
+	background-position: center;
+	background-repeat:no-repeat;
+    background-size: cover; 
 	min-height: 150px;
+	color:white;
+}
+footer .sign{
+	text-align: center;
+	padding-top:80px;
+	min-height: 300px;
+	
+}
+footer .sign h3{
+	margin-top: 80px;
+	font-size: 40px;
+}
+footer .sign p{
+	margin-top: 50px;
+	font-size: 30px;
 }
 footer ul{
-	margin:0px;
+	margin-bottom:10px;
+	padding-top: 50px;
 	text-align:center;
 
+
+}
+.footer-background{
+	background:rgba(0,0,0,0.8);
 }
 footer ul li{
 	display: inline-block;
@@ -173,6 +203,7 @@ footer ul li{
 .copy{
 	text-align:center;
 	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 
